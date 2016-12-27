@@ -1,0 +1,26 @@
+Size in html : 
+
+1. 10px = 10 pixels
+2. 10% = % of the screen
+3. 1.5em =	1.5 times the font size
+
+Media queries are easy ways to provide styles based upon the size
+
+Three ways of using the media query
+1. Linked CSS. Ex <link rel="stylesheet" media="screen and (min-width : 500 px)" href="">  
+2. @media only screen an (min-width : 500 px)
+{
+	body{
+			display=none;
+		}
+}
+3. @import  url("abc.css") only screen and (min-width: 500px)
+(Refrain from using it as it has high perf impact)
+
+
+Linked CSS had many small http requests
+@media has few large http requests
+
+
+
+Break point is a resolution size where user can see visible changes in the layout design of a page.

@@ -1,0 +1,15 @@
+Response Patterns :
+
+There are 4 major types of response patterns
+1. Mostly Fluid
+2. Column Drop
+3. Layout Shifter
+4. Off canvas
+
+Generally a combination of two response patterns is used to provide the solution
+
+Column Drop : At its narrowest point all the columns are stacked vertically over each other. As the screen size increases the columns move to the horizontal level one by one
+
+Layout Shifter is the most commonly used pattern
+
+Off Canvas is generally used to hide out the menu and selection options in a hamburger icon in case of small resolution
